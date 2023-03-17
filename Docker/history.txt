@@ -1,0 +1,385 @@
+    1  vi /etc/hostname
+    2  sudo su -
+    3  reboot -h now
+    4  docker pull tomcat
+    5  systemctl start tomcat
+    6  systemctl start docker
+    7  docker pull tomcat
+    8  docker images
+    9  docker ps
+   10  docker ps -a
+   11  docker run -d --name tomcat-container -p 8081:8080 tomcat
+   12  docker ps
+   13  docker build -t mytomcat .
+   14  exit
+   15  systemctl start docker.service
+   16  systemctl status docker.service
+   17  docker ps
+   18  docker ps -a
+   19  docker images
+   20  docker run -d --name tomcat -p 8081:8080 tomcat
+   21  find / --name tomcat
+   22  find / -n tomcat
+   23  find / --name 'tomcat'
+   24  find / --name "tomcat"
+   25  cd /usr/local/tomcat
+   26  docker ps
+   27  find / -name tomcat
+   28  docker images
+   29  docker images --expand
+   30  cat /var/lib/docker/overlay2/2e7682535590f3d7bf3c1a3aef66712e3a5f92bf09a706ce9e186790785363e5/diff/usr/local/tomcat
+   31  cd /var/lib/docker/overlay2/2e7682535590f3d7bf3c1a3aef66712e3a5f92bf09a706ce9e186790785363e5/diff/usr/local/tomcat
+   32  ll
+   33  cd /var/lib/docker/overlay2/8a491213915092bf3afe902cb8b6c430605a70497452cad1c13c0a08772f1d14/diff/usr/local/tomcat
+   34  ll
+   35  cd /var/lib/docker/overlay2/31a49f7f3a905b7f268e523a509a9790af32ef1ba752db68177dbfbbffe05810/diff/usr/local/tomcat
+   36  ll
+   37  cd /var/lib/docker/overlay2/31a49f7f3a905b7f268e523a509a9790af32ef1ba752db68177dbfbbffe05810/diff/usr/local/tomcat
+   38  ll
+   39  cd /var/lib/docker/overlay2/034a89a9e60708868594a3b9a571e723ab9593f12d3100d7888f7ebaca3032dd/diff/usr/local/tomcat
+   40  cd /var/lib/docker/overlay2/034a89a9e60708868594a3b9a571e723ab9593f12d3100d7888f7ebaca3032dd/merged/usr/local/tomcat
+   41  ll
+   42  cd /var/lib/docker/overlay2/31a49f7f3a905b7f268e523a509a9790af32ef1ba752db68177dbfbbffe05810/diff/usr/local/tomcat
+   43  ll
+   44  cd /var/lib/docker/overlay2/034a89a9e60708868594a3b9a571e723ab9593f12d3100d7888f7ebaca3032dd/merged/usr/local/tomcat
+   45  ll
+   46  cd
+   47  docke ps
+   48  docker ps
+   49  docker exec -it tomcat /bin/bash
+   50  docker ps
+   51  docker ps -a
+   52  docker rm -a
+   53  docker rm --help
+   54  docker rm -f
+   55  docker rm -f 31 c1 60
+   56  docker ps
+   57  docker rm -a
+   58  docker ps -a
+   59  docker ps
+   60  docker ls
+   61  docker run -d --name tomcat -p 8081:8080 tomcat
+   62  docker ps
+   63  docker exec --it docker /bin/bash
+   64  docker -exec --it docker /bin/bash
+   65  docker exec -it docker /bin/bash
+   66  docker exec -it tomcat /bin/bash
+   67  history
+   68  ll
+   69  docker build -t my-tomcat . 
+   70  vim Dockerfile 
+   71  docker build -t my-tomcat . 
+   72  vim Dockerfile 
+   73  docker build -t my-tomcat . 
+   74  vim Dockerfile 
+   75  docker build -t my-tomcat . 
+   76  vim Dockerfile 
+   77  docker build -t my-tomcat . 
+   78  vim Dockerfile 
+   79  docker build -t my-tomcat . 
+   80  vi /etc/hostname
+   81  vim Dockerfile 
+   82  docker build -t mytomcat .
+   83  vim Dockerfile 
+   84  docker build -t mytomcat .
+   85  vim Dockerfile 
+   86  docker build -t mytomcat .
+   87  vim Dockerfile 
+   88  docker build -t mytomcat .
+   89  vim Dockerfile 
+   90  docker build -t mytomcat .
+   91  docker images
+   92  docker rmi d2 23 5d
+   93  docker rmi -f d2 23 5d
+   94  docker rmi -f 23 5d
+   95  docker ps
+   96  docker rm 87
+   97  docker rm -f 87
+   98  docker ps
+   99  docker ps -a
+  100  docker rm -f 97 f5 d1 fc a3 cf 36 7b bd
+  101  docker ps -a
+  102  docker ps
+  103  docker ps -a
+  104  docker images
+  105  docker rmi 23 5d
+  106  docker images
+  107  vim Dockerfile 
+  108  docker images
+  109  docker run -d --name mytomcat-server -p 8083:8080 mytomcat
+  110  vim Dockerfile 
+  111  docker run -d --name mytomcat-server -p 8083:8080 mytomcat
+  112  docker build -t mytomcat .
+  113  docker run -d --name mytomcat-server -p 8083:8080 mytomcat
+  114  docker rm -f mytomcat
+  115  docker rm -f mytomcat-server
+  116  docker run -d --name mytomcat-server -p 8083:8080 mytomcat
+  117  vi Dockerfile 
+  118  mv Dockerfile Dockerfile.bkp
+  119  vi Dockerfile
+  120  cat Dockerfile
+  121  vi Dockerfile
+  122  docker build -t demotomcat .
+  123  docker run -d --name demotomcat-container -p 8085:8080 demotomcat
+  124  docker ps
+  125  exit
+  126  cd /home/dockeradmin/.ssh
+  127  exit
+  128  vi /etc/ssh/sshd_config 
+  129  passwd dockeradmin
+  130  su - dockeradmin
+  131  sudo dockeradmin
+  132  su dockeradmin
+  133  service sshd reload
+  134  service sshd status
+  135  su - dockeradmin
+  136  docker images
+  137  docker rmi tomcat:v1
+  138  docker rmi demotomcat
+  139  docker ps
+  140  docker rm -f 0f
+  141  docker ps
+  142  docker images
+  143  docker rmi demotomcat
+  144  docker ps
+  145  docker ps -a
+  146  docker rm -f f7 d2
+  147  docker ps -a
+  148  docker images
+  149  docker rm demotomcat
+  150  docker rmi demotomcat
+  151  docker rmi mytomcat
+  152  docker rmi tomcat
+  153  docker rmi centos
+  154  docker images
+  155  ls
+  156  cd /opt/docker
+  157  ll
+  158  docker build -t Dockerfile .
+  159  docker build -t tomcat:v1 Dockerfile .
+  160  docker build -t tomcat:v1 .
+  161  tomcat images
+  162  docker images
+  163  docker rmi tomcat
+  164  docker images
+  165  docker -exec -it tomcat /bin/bash
+  166  docker images
+  167  docker run -d --name tomcat_server -p 8086:8080 tomcat
+  168  docker ps
+  169  docker run -d --name tomcat_server -p 8086:8080 74
+  170  docker images
+  171  docker rm 236
+  172  docker rmi 236
+  173  docker ps
+  174  docker rm -f 0a
+  175  docker rmi 23
+  176  docker ps -a
+  177  docker images
+  178  docker rmi 236
+  179  docker rmi 74
+  180  docker rmi 236
+  181  docker build -t tomcat .
+  182  docker images
+  183  vim Dockerfile 
+  184  docker rmi cb6 236
+  185  vim Dockerfile 
+  186  docker build -t tomcat .
+  187  docker images
+  188  docker run -d e98 --name tomcat_server -p 8086:8080 e98
+  189  docker run -d e98 --name tomcat_server -p 8086:8080 236
+  190  docker run -d e98 --name tomcat_server -p 8086:8080 tomcat
+  191  docker ps -a
+  192  docker rm -f 0a 4c ec
+  193  docker ps -a
+  194  docker run -d --name tomcat_server -p 8086:8080 e9
+  195  docker ps
+  196  docker images
+  197  docker help
+  198  docker images
+  199  docker ps
+  200  vi Dockerfile 
+  201  cat Dockerfile 
+  202  history
+  203  mkdir docker
+  204  ll
+  205  chown -R dockeradmin:dockeradmin docker
+  206  ll
+  207  ls -ld
+  208  ll /root
+  209  mv /root/Dockerfile /opt/docker/
+  210  cd docker/
+  211  ll 
+  212  chown -R dockeradmin dockeradmin Dockerfile 
+  213  chown -R dockeradmin:dockeradmin Dockerfile 
+  214  ll
+  215  ll
+  216  date
+  217  vim Dockerfile 
+  218  docker build -t tomcat:v1 .
+  219  docker images
+  220  docker run -d --name tomcat -p 8086:8080 tomcat
+  221  ll /usr/local/tomcat
+  222  ll /usr/local
+  223  find --name / tomcat
+  224  find / --name tomcat
+  225  find / -n tomcat
+  226  find / --name '^tomcat'
+  227  find / -n tomcat
+  228  find / -n 'tomcat'
+  229  ll
+  230  cd /usr/local/bin
+  231  ll
+  232  cd
+  233  ll
+  234  su - dockeradmin
+  235  systemctl start docker.service
+  236  hostname
+  237  systemctl status docker.service
+  238  docker images
+  239  cd /etc
+  240  ll
+  241  cd /opt
+  242  ll
+  243  cd docker/
+  244  ll
+  245  date
+  246  sudo dockerdemon
+  247  sudo dockerdeamon
+  248  less /etc/passwd
+  249  sudo dockeradmin
+  250  su - dockeradmin
+  251  cd /opt/docker/
+  252  ll
+  253  date
+  254  systemctl status docker.service
+  255  systemctl status docker.service
+  256  systemctl enable docker.service
+  257  ll
+  258  docker ps prune
+  259  docker ps --help
+  260  docker --help
+  261  docker rm --help
+  262  man docker 
+  263  docker images prune
+  264  docker images prune -a
+  265  docker ps prune -a
+  266  docker ps
+  267  docker ps -a
+  268  docker rm -f 311
+  269  ll
+  270  docker build -t tomcat:v1 .
+  271  docker images
+  272  cat Dockerfile 
+  273  docker run -d --name tomcat_server -p 8086:8080 tomcat:v1 
+  274  docker ps
+  275  docker images
+  276  docker ps
+  277  docker images prune -a
+  278  docker images 
+  279  docker images prune
+  280  docker images
+  281  docker image prune
+  282  docker images
+  283  docker image prune -a
+  284  docker images
+  285  docker ps
+  286  docker ps -a
+  287  docker container prune
+  288  docker ps -a
+  289  docker rm -f 4d
+  290  docker images
+  291  docker image prune -a
+  292  docker images
+  293  docker images
+  294  docker ps
+  295  docker ps
+  296  cd /etc/docker
+  297  ll
+  298  cd /opt/docker
+  299  ll
+  300  date
+  301  docker ps
+  302  docker images
+  303  useradd ansadmin
+  304  passwd ansadmin
+  305  hostname
+  306  echo "student" | passwd --stdin ansadmin
+  307  tail -n -1 /etc/passwd
+  308  visudo
+  309  grep "^ansadmin" /etc/sudoers 
+  310  grep "^%ansadmin" /etc/sudoers 
+  311  grep Password /etc/ssh/sshd_config 
+  312  ifconfig
+  313  su - ansadmin
+  314  ll
+  315  cd /opt/docker/
+  316  ll
+  317  sftp Dockerfile ansadmin@172.31.12.192:/opt/docker/
+  318  ftp Dockerfile ansadmin@172.31.12.192:/opt/docker/
+  319  scp Dockerfile ansadmin@172.31.12.192:/opt/docker/
+  320  docker host
+  321  docker images
+  322  docker image prune
+  323  docker images
+  324  docker ps -a
+  325  docker ps prune
+  326  docker container prune
+  327  docker ps -a
+  328  docker rm a1f
+  329  docker rm -f a1f
+  330  docker ps -a
+  331  docker image prune
+  332  docker image
+  333  docker images
+  334  docker images prune
+  335  docker images 
+  336  man docker images prune
+  337  docker image prune
+  338  docker rm =i c0 23
+  339  docker rmi c0 23
+  340  docker images
+  341  docker ps
+  342  chmod 777 /var/run/docker.sock
+  343  docker images
+  344  docker ips
+  345  docker ps
+  346  yum install docker -y
+  347  docker version
+  348  systemctl enable --now
+  349  systemctl enable --now docker
+  350  docker version
+  351  docker ps
+  352  docker pull docker.io/centos:7
+  353  docker images
+  354  docker ps
+  355  docker ps -a
+  356  docker ps prune 
+  357  docker ps prune -a
+  358  docker image prune
+  359  docker images
+  360  docker rmi regapp
+  361  docker rmi regapp:v1
+  362  docker ps
+  363  docker version
+  364  ls
+  365  vim Dockerfile.bkp 
+  366  vim Dockerfile
+  367  docker build -t tomcat .
+  368  vim Dockerfile
+  369  docker build -t tomcat .
+  370  vim Dockerfile
+  371  vim Dockerfile.bkp 
+  372  vim Dockerfile
+  373  docker build -t tomcat .
+  374  vim Dockerfile
+  375  docker build -t tomcat .
+  376  vim Dockerfile
+  377  echo redhat@123 | passwd --stdin dockeradmin
+  378  history
+  379  cat history > history.txt
+  380  echo history > history.txt
+  381  vim history.txt 
+  382  rm history.txt 
+  383  echo $history > history.txt
+  384  vim history.txt 
+  385  history > history.txt 
